@@ -1,0 +1,33 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ---------- Environment ----------
+.env
+.env.*
+!.env.example
+
+# ---------- log & database ----------
+*.db
+*.sqlite3
+*.log
+
+# ---------- test----------
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- os & editor ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
